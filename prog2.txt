@@ -1,0 +1,48 @@
+program
+var
+  str : string;
+  a : int;
+  flag : bool;
+{
+    get(a);
+    print("Вы ввели: ");
+    print(a);
+    get(str);
+    print("Вы ввели: ");
+    print(str);
+    get(flag);
+    print("Вы ввели: ");
+    if flag {
+      print("true");
+    } else {
+      print("false");
+    };
+    print("");
+    flag := a > 1;
+    if flag {
+      if flag {
+        print("Введенное число больше 1");
+      } else {
+        print("Vs nen jnfr");
+      }
+    } else {
+      print("Введенное число меньше 1");
+    };
+    [Проверка комментария]
+    str := str + " - это введенная строка";
+    print(str);
+    a := a + 1;
+    print("Увеличенное на единицу значение а:");
+    print(a);
+    flag := a > 5;
+    while flag {
+      flag := false;
+    };
+    print("Flag == 0 == false");
+    print(flag);
+    if ("string" > str) {
+      print("String больше");
+    } else {
+      print("String меньше");
+    }
+}.
